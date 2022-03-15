@@ -1,5 +1,8 @@
 const xml2js = require('xml2js');
-const parser = new xml2js.Parser({explicitArray : false, mergeAttrs : true});
+const { getValues } = require('../models/CFDI');
+
+const parser = new xml2js.Parser({ explicitArray : true, mergeAttrs : true });
+
 exports.xmlValidation  = (req, res, next) => {
     let json = JSON.parse(JSON.stringify(req.body));
     let xmlBase64 = json.xml;
@@ -10,9 +13,10 @@ exports.xmlValidation  = (req, res, next) => {
         parser.parseString(xml, function(error, result) {
             if(error === null){
                 jsonObj = JSON.parse(JSON.stringify(result))
-                console.log({jsonObj});
                 let values = {};
+                console.log({jsonObj});
                 getValues(jsonObj, values); 
+                console.log(values);
                 data = {
                     "resultadoValidacionWinba": {
                         "tipoDocumentoEstado": true,
@@ -56,21 +60,4 @@ exports.xmlValidation  = (req, res, next) => {
 
     next();
 }
-function getValues(jsonObj, values, node = '') {
-    for(let obj in jsonObj) {
-        if(jsonObj[obj] instanceof Object) {
-            node = obj;
-            getValues(jsonObj[obj], values, node);
-        } else {
-            if(node == 'cfdi:Comprobante' && obj == 'Version'){
-                values[obj] = jsonObj[obj];
-            }
-            else if(node == 'cfdi:Comprobante' && obj == 'Fecha'){
-                values[obj] = jsonObj[obj];
-            }
-            else if(node == 'cfdi:Comprobante' && obj == 'FormaPago'){
-                values[obj] = jsonObj[obj];
-            }
-        };
-    }
-}
+
