@@ -1,23 +1,27 @@
 const xml2js = require('xml2js');
 const { getValues } = require('../models/CFDI');
 
-const parser = new xml2js.Parser({ explicitArray : true, mergeAttrs : true });
+const parser = new xml2js.Parser();
 
 exports.xmlValidation  = (req, res, next) => {
     let json = JSON.parse(JSON.stringify(req.body));
     let xmlBase64 = json.xml;
     let pdfBase64 = json.pdf;
+    let data;
     if(xmlBase64 != ""){
         buff = Buffer.from(xmlBase64, 'base64');
-        xml = buff.toString('ascii');
-        parser.parseString(xml, function(error, result) {
-            if(error === null){
+        xml = buff.toString();
+        parser.parseString(xml,function(error, result) {   
+            if(error) res.json({ msg: error.message });
                 jsonObj = JSON.parse(JSON.stringify(result))
-                let values = {};
-                console.log({jsonObj});
-                getValues(jsonObj, values); 
-                console.log(values);
-                data = {
+                data = getValues(jsonObj);
+                data.forEach(item =>{
+                    console.log('*************************************************************');
+                    console.log(item)
+                    console.log('*************************************************************');
+
+                });
+                /* data = {
                     "resultadoValidacionWinba": {
                         "tipoDocumentoEstado": true,
                         "tipoDocumentoResultado": "CFDI-CCP",
@@ -44,20 +48,14 @@ exports.xmlValidation  = (req, res, next) => {
                         "destinoEstado":true,
                         "destinoResultado":"Acorde con definicion"
                     }
-                };
-            }
-            else {
-                data = {
-                    message: "Error de lectura de XML"
-                  };
-            }
+                }; */
         });
+        res.json({ msg: data });
     }
+
     if(pdfBase64 != ""){
         //Nothing to do
     }
-    res.status(200).send(data);
-
     next();
 }
 

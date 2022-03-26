@@ -1,0 +1,230 @@
+{
+    "cfdi:Comprobante": {
+      "-xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "-xmlns:cartaporte": "http://www.sat.gob.mx/CartaPorte",
+      "-xmlns:cfdi": "http://www.sat.gob.mx/cfd/3",
+      "-xsi:schemaLocation": "http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd http://www.sat.gob.mx/CartaPorte http://www.sat.gob.mx/sitio_internet/cfd/CartaPorte/CartaPorte.xsd ",
+      "-Version": "3.3",
+      "-Serie": "H",
+      "-Folio": "1",
+      "-Fecha": "2021-05-05T11:30:30",
+      "-SubTotal": "10",
+      "-Moneda": "MXN",
+      "-Total": "10.90",
+      "-FormaPago": "01",
+      "-MetodoPago": "PUE",
+      "-TipoDeComprobante": "I",
+      "-LugarExpedicion": "32000",
+      "-NoCertificado": "30001000000400002443",
+      "-Sello": "FuxCknNp3B93JSGtd442Azqqf+N089DK2HX3vnAjeR+e75MLDD8MSmgatjXjawqHSTM4VJxhav6PVBNPShGDX7y9v7ifiVfXAL49Cs380G+PTWXkQ+ggOi+bTr24Teh0xo/MBaUrkP717PlB67Dcxsih7TYHoSuRznJH5oaR7YdLrCCYebcz7toVkvhCDsXPqDhuahcaVe02Z+c7jXY9GLynnUPslSTlPcld9et64BsTuxuMNDQpjoQYkrJwKsA22Kn0VgakWyGH1QD7iiXRWe0dg4COsVed8CRwZJ+f0RAJYQJStuFl0Lzvpv9GWP4jJU661kF1aEB4p1jF+VOh/A==",
+      "-Certificado": "MIIFyDCCA7CgAwIBAgIUMzAwMDEwMDAwMDA0MDAwMDI0NDMwDQYJKoZIhvcNAQELBQAwggErMQ8wDQYDVQQDDAZBQyBVQVQxLjAsBgNVBAoMJVNFUlZJQ0lPIERFIEFETUlOSVNUUkFDSU9OIFRSSUJVVEFSSUExGjAYBgNVBAsMEVNBVC1JRVMgQXV0aG9yaXR5MSgwJgYJKoZIhvcNAQkBFhlvc2Nhci5tYXJ0aW5lekBzYXQuZ29iLm14MR0wGwYDVQQJDBQzcmEgY2VycmFkYSBkZSBjYWRpejEOMAwGA1UEEQwFMDYzNzAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBDSVVEQUQgREUgTUVYSUNPMREwDwYDVQQHDAhDT1lPQUNBTjERMA8GA1UELRMIMi41LjQuNDUxJTAjBgkqhkiG9w0BCQITFnJlc3BvbnNhYmxlOiBBQ0RNQS1TQVQwHhcNMTkwNjE3MjA0MDUxWhcNMjMwNjE3MjA0MDUxWjCB7zEqMCgGA1UEAxMhWEVOT04gSU5EVVNUUklBTCBBUlRJQ0xFUyBTIERFIENWMSowKAYDVQQpEyFYRU5PTiBJTkRVU1RSSUFMIEFSVElDTEVTIFMgREUgQ1YxKjAoBgNVBAoTIVhFTk9OIElORFVTVFJJQUwgQVJUSUNMRVMgUyBERSBDVjElMCMGA1UELRMcWElBMTkwMTI4SjYxIC8gS0FITzY0MTEwMUIzOTEeMBwGA1UEBRMVIC8gS0FITzY0MTEwMUhOVExLUzA2MSIwIAYDVQQLExlYZW5vbiBJbmR1c3RyaWFsIEFydGljbGVzMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiJQ5YcSgjwsGf29+3go7VGdtMZCcH9wUpn46ZMAlFwUojnCPTvwJ3+cSwjqJnw8ahr3DuRwekvGR4BJAb5b9Xi8kyoiWtwcGOSWxO38Bp9J1e/BO9HMbQBPAtLDuG47oqnH8zWLOeaoYRJDpARw4RX1ko2+9tbj0ntBtM7Vk1E8EWiA/h2Meq0LIv1+ySGTUrEW46FM01J5pzELv5XupBghuJxR5DG9fiOW7u3dR5s3tZoVLwA1KdjJtY0mmnfCwxg6i5AqhvY+FAI5D6CF6/lHA8PWg63WasvrhuIv70xCLjgPT/j00ZcPrLvBf1DefGVic980Ch/SDvC+MdJ1F5wIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQsFAAOCAgEACjfTPoKY2N5MxjmAMltd5XZCV1vgAwEtrIRYTodhE8R0Tp1QanAXb0luPyBv5hIXWK4VqAI4fcTtP+n7kkrwfha6ErkPWFNJWJm8ZsMmby/3WgVoJkOFyRYQqr5Il3N6wMa5kiDBtDRbqB3iEXmvtrvjWSHyxAER+zo3jWGFlhBZ0nQNRtjx8sPFihVc5TUH682HJiU4oWvT63Dnra8ncqiW/uCuY86crnUq0fW7Lw/3+PY5xXjNxR/Hh3sUPITfJrGaLWurD1J9npr9yGAJ6t9zrhhZnepIC0DUMc5+j4pg1DrO32jzwUOLQqErDizh84NoJCWwbg+US8wi3zD0ZKiDv7XsTNWAW2Ap2JkzykKHjFTZiEm3uZOkJNfcu3o+kefr5HfXFT+iN9K5FUEhaQwgUeZBRJ8V5F6gmhz3d6ixVbiZoFNhYR8e2k8gF9gGrVMrEbJGQrl+6+ZYQLFiauXeG7fu1svk19PuyredRJGnseJqyV4RzcRGhJA+cLnmpdDOTEhignnvnhEuY6HVRYYXhOTyeeluET7KRCxbJGqO7TdWgjrHL3HRbNE4NY5GAdOZuLaWxElG5ZVCHqtG0Nh7UQAhcz+EKyZBAewv5XuH0OomZXw6mM2mY2soL6z1224NusM8/BbJcYTQUlAEKblEChhGK1XlxiVOU2nc9KE=",
+      "cfdi:Emisor": {
+        "-Rfc": "AAA010101AAA",
+        "-Nombre": "Una razón rh de cv",
+        "-RegimenFiscal": "603",
+        "-self-closing": "true"
+      },
+      "cfdi:Receptor": {
+        "-Rfc": "XAXX010101000",
+        "-Nombre": "Publico en General",
+        "-UsoCFDI": "P01",
+        "-self-closing": "true"
+      },
+      "cfdi:Conceptos": {
+        "cfdi:Concepto": {
+          "-ClaveProdServ": "53101601",
+          "-Cantidad": "1",
+          "-ClaveUnidad": "H87",
+          "-Descripcion": "producto de prueba",
+          "-ValorUnitario": "10.00",
+          "-Importe": "10.00",
+          "cfdi:Impuestos": {
+            "cfdi:Traslados": {
+              "cfdi:Traslado": {
+                "-Base": "10.00",
+                "-Impuesto": "002",
+                "-TipoFactor": "Tasa",
+                "-TasaOCuota": "0.160000",
+                "-Importe": "1.6",
+                "-self-closing": "true"
+              }
+            },
+            "cfdi:Retenciones": {
+              "cfdi:Retencion": {
+                "-Base": "10.00",
+                "-Impuesto": "003",
+                "-TipoFactor": "Tasa",
+                "-TasaOCuota": "0.070000",
+                "-Importe": "0.70",
+                "-self-closing": "true"
+              }
+            }
+          }
+        }
+      },
+      "cfdi:Impuestos": {
+        "-TotalImpuestosTrasladados": "1.6",
+        "-TotalImpuestosRetenidos": "0.70",
+        "cfdi:Retenciones": {
+          "cfdi:Retencion": {
+            "-Impuesto": "003",
+            "-Importe": "0.70",
+            "-self-closing": "true"
+          }
+        },
+        "cfdi:Traslados": {
+          "cfdi:Traslado": {
+            "-Importe": "1.6",
+            "-TipoFactor": "Tasa",
+            "-TasaOCuota": "0.160000",
+            "-Impuesto": "002",
+            "-self-closing": "true"
+          }
+        }
+      },
+      "cfdi:Complemento": {
+        "cartaporte:CartaPorte": {
+          "-xmlns:cartaporte": "http://www.sat.gob.mx/CartaPorte",
+          "-Version": "1.0",
+          "-TranspInternac": "No",
+          "-TotalDistRec": "1000",
+          "cartaporte:Ubicaciones": {
+            "cartaporte:Ubicacion": [
+              {
+                "cartaporte:Origen": {
+                  "-RFCRemitente": "LEGH870601DM7",
+                  "-NombreRemitente": "Una razón rh de cv",
+                  "-ResidenciaFiscal": "MEX",
+                  "-FechaHoraSalida": "2021-05-05T11:30:30",
+                  "-self-closing": "true"
+                },
+                "cartaporte:Domicilio": {
+                  "-Calle": "Centro",
+                  "-NumeroExterior": "23",
+                  "-NumeroInterior": "s/n",
+                  "-Colonia": "0701",
+                  "-Localidad": "06",
+                  "-Referencia": "Edificio 6 pisos",
+                  "-Municipio": "037",
+                  "-Estado": "CHH",
+                  "-Pais": "MEX",
+                  "-CodigoPostal": "32000",
+                  "-self-closing": "true"
+                }
+              },
+              {
+                "-DistanciaRecorrida": "1000.00",
+                "cartaporte:Destino": {
+                  "-RFCDestinatario": "LEGH870601DM7",
+                  "-NombreDestinatario": "Una razón rh de cv",
+                  "-ResidenciaFiscal": "MEX",
+                  "-FechaHoraProgLlegada": "2021-05-05T11:30:30",
+                  "-self-closing": "true"
+                },
+                "cartaporte:Domicilio": {
+                  "-Calle": "Lazaro",
+                  "-NumeroExterior": "10",
+                  "-NumeroInterior": "s/n",
+                  "-Colonia": "0701",
+                  "-Localidad": "06",
+                  "-Referencia": "Edificio 6 pisos",
+                  "-Municipio": "037",
+                  "-Estado": "CHH",
+                  "-Pais": "MEX",
+                  "-CodigoPostal": "32000",
+                  "-self-closing": "true"
+                }
+              }
+            ]
+          },
+          "cartaporte:Mercancias": {
+            "-PesoNetoTotal": "1000",
+            "-NumTotalMercancias": "1",
+            "cartaporte:Mercancia": {
+              "-ClaveUnidad": "H87",
+              "-BienesTransp": "53101601",
+              "-ClaveSTCC": "3312",
+              "-Cantidad": "100",
+              "-Unidad": "Piezas",
+              "-Dimensiones": "30/40/30cm",
+              "-DescripEmbalaje": "cajas de acero",
+              "-PesoEnKg": "100",
+              "-ValorMercancia": "100",
+              "-Moneda": "MXN",
+              "-self-closing": "true"
+            },
+            "cartaporte:AutotransporteFederal": {
+              "-PermSCT": "TPAF01",
+              "-NumPermisoSCT": "0123456789",
+              "-NombreAseg": "Qualitas",
+              "-NumPolizaSeguro": "9876543210",
+              "cartaporte:IdentificacionVehicular": {
+                "-ConfigVehicular": "C2",
+                "-PlacaVM": "AAA010",
+                "-AnioModeloVM": "2021",
+                "-self-closing": "true"
+              },
+              "cartaporte:Remolques": {
+                "cartaporte:Remolque": {
+                  "-SubTipoRem": "CTR001",
+                  "-Placa": "010AAA",
+                  "-self-closing": "true"
+                }
+              }
+            }
+          },
+          "cartaporte:FiguraTransporte": {
+            "-CveTransporte": "01",
+            "cartaporte:Operadores": {
+              "cartaporte:Operador": {
+                "-RFCOperador": "GAAA951228DL2",
+                "-NumLicencia": "123456",
+                "-NombreOperador": "GAM TRANSPORTE",
+                "cartaporte:Domicilio": {
+                  "-Calle": "calle Operador",
+                  "-NumeroExterior": "12",
+                  "-NumeroInterior": "s/n",
+                  "-Colonia": "0701",
+                  "-Localidad": "06",
+                  "-Municipio": "037",
+                  "-Estado": "CHH",
+                  "-Pais": "MEX",
+                  "-CodigoPostal": "32000",
+                  "-self-closing": "true"
+                }
+              }
+            },
+            "cartaporte:Notificado": {
+              "-NombreNotificado": "CONROE SOLUCIONES S.A. DE C.V.",
+              "-ResidenciaFiscalNotificado": "MEX",
+              "cartaporte:Domicilio": {
+                "-Calle": "JUAN ESCUTIA",
+                "-NumeroExterior": "23",
+                "-NumeroInterior": "s/n",
+                "-Colonia": "0701",
+                "-Localidad": "06",
+                "-Municipio": "037",
+                "-Estado": "CHH",
+                "-Pais": "MEX",
+                "-CodigoPostal": "32000",
+                "-self-closing": "true"
+              }
+            }
+          }
+        },
+        "tfd:TimbreFiscalDigital": {
+          "-xmlns:tfd": "http://www.sat.gob.mx/TimbreFiscalDigital",
+          "-xsi:schemaLocation": "http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd",
+          "-xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "-Version": "1.1",
+          "-UUID": "56F0751F-42F0-984F-A9C2-EEC78238BF9A",
+          "-FechaTimbrado": "2021-06-16T20:10:58",
+          "-RfcProvCertif": "AAA010101AAA",
+          "-SelloCFD": "FuxCknNp3B93JSGtd442Azqqf+N089DK2HX3vnAjeR+e75MLDD8MSmgatjXjawqHSTM4VJxhav6PVBNPShGDX7y9v7ifiVfXAL49Cs380G+PTWXkQ+ggOi+bTr24Teh0xo/MBaUrkP717PlB67Dcxsih7TYHoSuRznJH5oaR7YdLrCCYebcz7toVkvhCDsXPqDhuahcaVe02Z+c7jXY9GLynnUPslSTlPcld9et64BsTuxuMNDQpjoQYkrJwKsA22Kn0VgakWyGH1QD7iiXRWe0dg4COsVed8CRwZJ+f0RAJYQJStuFl0Lzvpv9GWP4jJU661kF1aEB4p1jF+VOh/A==",
+          "-NoCertificadoSAT": "20001000000300022323",
+          "-SelloSAT": "bQP5G0jkrEn1HtCjiGW4ZcA6uI9MvduePiCG4PGB7u1RxtNO7kPFMAvg5YN7hoHKPXSl9S/HAtMTrfjaoHr8bfCLWxGPRzzM5fZ5oSv/qLnkDScr7t3bxSsTA77bx/mzVZse9yZpSpM+ztqKdLoeY6MujQXIZPb4Ntu7ecy1zSQO6Dft0QZ0/pXbbZpnGwpR1Mlm/8F40+4qbUiBIV2lexWnyv7Rjc+lA7q38kH8/OJiy1yUGZpcVxWEL3CzfYNYN21plVWvMpjcvNjrsNI53DBOFSbyjjYrjaT5f1tgY+snselzrc67ucz94wEWMS3UnuDnUIZdGgX1DBzIrI3pVQ==",
+          "-self-closing": "true"
+        }
+      }
+    }
+  }

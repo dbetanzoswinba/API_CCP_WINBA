@@ -1,0 +1,138 @@
+{
+	"msg": [
+		"cfdi:Comprobante",
+		{
+			"xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+			"xsi:schemaLocation": "http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd http://www.sat.gob.mx/nomina12 http://www.sat.gob.mx/sitio_internet/cfd/nomina/nomina12.xsd",
+			"xmlns:cfdi": "http://www.sat.gob.mx/cfd/3",
+			"xmlns:nomina12": "http://www.sat.gob.mx/nomina12",
+			"Version": "3.3",
+			"Fecha": "2022-01-27T18:26:40",
+			"Sello": "C4uYp8L4Cdse1IASDl21zBW0NpJJwf29ixdkvIb+pVSCsqzuH9avlYcyjIoJnSu6vjciXBoMBshs0YUCbZC1zcrpYkRtg/UOs/D3Lt721Ruapkp/eeaKA4paiEXnTrnt8dsUS5L0N/Z/CGdhpghlZ2PR+t1MDCUa7A/I6wn24iaIy62eqhFEd++L/pilCpjCRYrxr05GSu6qVjRyU8GfvFZ6uZx5EqaHoCKyY2o9j/OV2FWSl0uxRVHut/xFd7Y87nTMEOqFbHNIRy9Y7fWcL6/ZM0+lys1vt1FsM9o/MYk1K1AF7yiFwrAL9ZhsrJCw8stP9sQ7TwTkV04MapTaFw==",
+			"FormaPago": "99",
+			"NoCertificado": "00001000000506934810",
+			"Certificado": "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",
+			"Moneda": "MXN",
+			"TipoDeComprobante": "N",
+			"MetodoPago": "PUE",
+			"Serie": "2022",
+			"Folio": "1",
+			"LugarExpedicion": "03810",
+			"SubTotal": "35000.10",
+			"Descuento": "6823.96",
+			"Total": "28176.14"
+		},
+		"cfdi:Emisor",
+		{
+			"RegimenFiscal": "601",
+			"Rfc": "WSO170714Q14",
+			"Nombre": "WINBA SOLUTIONS, S. C."
+		},
+		"cfdi:Receptor",
+		{
+			"Rfc": "BEED910917V88",
+			"Nombre": "Betanzos Espinosa David Sebastian",
+			"UsoCFDI": "P01"
+		},
+		"cfdi:Conceptos",
+		"cfdi:Concepto",
+		{
+			"ClaveProdServ": "84111505",
+			"Cantidad": "1",
+			"ClaveUnidad": "ACT",
+			"Descripcion": "Pago de nómina",
+			"ValorUnitario": "35000.10",
+			"Importe": "35000.10",
+			"Descuento": "6823.96"
+		},
+		"cfdi:Complemento",
+		"nomina12:Nomina",
+		{
+			"Version": "1.2",
+			"TipoNomina": "O",
+			"FechaPago": "2022-01-27",
+			"FechaInicialPago": "2022-01-01",
+			"FechaFinalPago": "2022-01-31",
+			"NumDiasPagados": "30.000",
+			"TotalPercepciones": "35000.10",
+			"TotalDeducciones": "6823.96",
+			"TotalOtrosPagos": "0.00"
+		},
+		"nomina12:Emisor",
+		{
+			"RegistroPatronal": "Y6076007100"
+		},
+		"nomina12:Receptor",
+		{
+			"Curp": "BEED910917HDFTSV05",
+			"NumSeguridadSocial": "03209133523",
+			"FechaInicioRelLaboral": "2021-11-03",
+			"Antigüedad": "P12W",
+			"TipoContrato": "03",
+			"Sindicalizado": "No",
+			"TipoJornada": "03",
+			"TipoRegimen": "02",
+			"NumEmpleado": "026",
+			"Departamento": "LEOPOLDO GTZ DIGITALIZACION INTELIGENTE",
+			"Puesto": "Senior 1",
+			"RiesgoPuesto": "1",
+			"PeriodicidadPago": "05",
+			"CuentaBancaria": "014180568250691701",
+			"SalarioBaseCotApor": "801.32",
+			"SalarioDiarioIntegrado": "766.67",
+			"ClaveEntFed": "OAX"
+		},
+		"nomina12:Percepciones",
+		{
+			"TotalSueldos": "35000.10",
+			"TotalGravado": "35000.10",
+			"TotalExento": "0.00"
+		},
+		"nomina12:Percepcion",
+		{
+			"TipoPercepcion": "001",
+			"Clave": "001",
+			"Concepto": "Sueldo",
+			"ImporteGravado": "23000.10",
+			"ImporteExento": "0.00"
+		},
+		"1",
+		"nomina12:Deducciones",
+		{
+			"TotalOtrasDeducciones": "656.00",
+			"TotalImpuestosRetenidos": "6167.96"
+		},
+		"nomina12:Deduccion",
+		{
+			"TipoDeduccion": "001",
+			"Clave": "052",
+			"Concepto": "IMSS",
+			"Importe": "656.00"
+		},
+		"1",
+		"nomina12:OtrosPagos",
+		"nomina12:OtroPago",
+		{
+			"TipoOtroPago": "002",
+			"Clave": "035",
+			"Concepto": "Subs al Empleo mes",
+			"Importe": "0.00"
+		},
+		"nomina12:SubsidioAlEmpleo",
+		{
+			"SubsidioCausado": "0.00"
+		},
+		"tfd:TimbreFiscalDigital",
+		{
+			"xmlns:tfd": "http://www.sat.gob.mx/TimbreFiscalDigital",
+			"xsi:schemaLocation": "http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd",
+			"Version": "1.1",
+			"UUID": "FF92CA6E-8F00-4AA0-B1B8-2406608802E0",
+			"FechaTimbrado": "2022-01-27T18:26:51",
+			"RfcProvCertif": "MAS0810247C0",
+			"SelloCFD": "C4uYp8L4Cdse1IASDl21zBW0NpJJwf29ixdkvIb+pVSCsqzuH9avlYcyjIoJnSu6vjciXBoMBshs0YUCbZC1zcrpYkRtg/UOs/D3Lt721Ruapkp/eeaKA4paiEXnTrnt8dsUS5L0N/Z/CGdhpghlZ2PR+t1MDCUa7A/I6wn24iaIy62eqhFEd++L/pilCpjCRYrxr05GSu6qVjRyU8GfvFZ6uZx5EqaHoCKyY2o9j/OV2FWSl0uxRVHut/xFd7Y87nTMEOqFbHNIRy9Y7fWcL6/ZM0+lys1vt1FsM9o/MYk1K1AF7yiFwrAL9ZhsrJCw8stP9sQ7TwTkV04MapTaFw==",
+			"NoCertificadoSAT": "00001000000505142236",
+			"SelloSAT": "BJHk9kX/2A3L7dSgfFgR5A0FH71pA5PrpYCbgCYrPAUo05GFisoV7zZWxTdikxunmaLF2hOOeXGju2UFw1urO7Fdef/t9cxLsvDDwAMYw4EDseaPrdcGa/Fk9tqIykQg0PuKLMfTzH7xDE9npKah4bqY4YV5PXqOriLQ9KC7qQEDugedLvJwnBfHzDZbzEdDmUyP3+pM0cX4vCR1bO8I5MgtrN6lr3Jz908hWZjcG4y5JF7U8OtyNiJuTAf53x1oZgUvnABfhq49mdz5iO511WyX1XmohUjqGaPsLp7196gDkQ4vWYUN5J2o8uCsKe7wPzGfr9d5KL7nD9hlinx9HQ=="
+		}
+	]
+}
