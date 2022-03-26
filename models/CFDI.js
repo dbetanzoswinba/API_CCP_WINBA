@@ -15,15 +15,11 @@ function iterarObjeto(objeto) {
     if (typeof objeto[key] === "object") {
       if(key !=='$'){
         if(key!== '0'){
-          // console.log(` la key es : ${key}`);
           arrayData.push(key);
         }
       }
       if(!Array.isArray(objeto[key]) ){
         if(contador===1){
-          // console.log(contador);
-          // console.log('El objeto es :');
-          // console.log(objeto[key]);
           arrayData.push(objeto[key]);
         }
         contador++;
