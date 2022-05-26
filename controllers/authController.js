@@ -13,8 +13,6 @@ exports.signIn = async (req, res)=>{
         data.email = email;
         const validarPassword = bcrypt.compareSync(password, getPassword);
         
-        console.log({ validarPassword });
-
         const payload = {
             usuario:{
                 id: resultado.id

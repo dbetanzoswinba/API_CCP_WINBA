@@ -23,11 +23,19 @@ User.sync()
   });
 
 const consultarEmail = async (email) =>{
-  return await User.findOne({ where: { email } });
+  try {
+    return await User.findOne({ where: { email } });
+  } catch (error) {
+    console.log(error0);
+  }
 }
 
 const consultarUsuario = async (username)=>{
-  return await User.findOne({ where: { username } });
+  try {
+    return await User.findOne({ where: { username } });
+  } catch (error) {
+    console.log(error);
+  }
 }
 
 const verificarRoles = (roles)=>{
@@ -36,10 +44,13 @@ const verificarRoles = (roles)=>{
 }
 
 const existeUsuario = async (username, email )=>{
-  const existeUsuario = Boolean(await consultarUsuario(username));
-  const existeEmail = Boolean(await consultarEmail(email));
-
-  return Boolean(existeUsuario + existeEmail);
+  try {
+    const existeUsuario = Boolean(await consultarUsuario(username));
+    const existeEmail = Boolean(await consultarEmail(email));
+    return Boolean(existeUsuario + existeEmail);
+  } catch (error) {
+    console.log(error);    
+  }
 }
 
 module.exports = {

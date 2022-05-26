@@ -12,8 +12,8 @@ exports.registrarUsuario = async (req, res)=>{
     if(!(username !== '' && password !== '' && email !== '')){
         res.status(400).json({ msg: 'Hubo un error al procesar los datos' });
     }   
+    
     const isUsuario = await existeUsuario(username, email);
-    console.log(isUsuario);
     const isRoles = verificarRoles(roles);
     
     if(isUsuario){
