@@ -25,6 +25,8 @@ services:
       - mysql-server-db
     ports:
       - 8080:8080
+    volumes:
+      - /usr/src/app/node_modules
     environment:
       DB_HOST: 'mysql-server-db'
       DB_PORT: '3306'

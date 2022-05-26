@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: true }));
 
 
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome to GLWINBA API." });
+  res.json({ message: "Bienvenidos a la API de Winba !!." });
 });
 
 app.use('/api/usuarios',require('./routes/usuariosRoutes'));

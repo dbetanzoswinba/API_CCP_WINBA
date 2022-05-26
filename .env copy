@@ -1,0 +1,13 @@
+DEV_DB_HOST='mysql-server-db_api'
+DEV_DB_USER='root'
+DEV_DB_PASSWORD='Temporal01*'
+DEV_DB_NAME='GLWINBA_API'
+PROD_DB_HOST='us-cdbr-east-05.cleardb.net'
+PROD_DB_USER='b0976e98de6434'
+PROD_DB_PASSWORD='7ae4f636'
+PROD_DB_NAME='heroku_4dac88ed1319990'
+PORT='8080'
+SQL_DB_PORT='1434'
+MYSQL_DB_PORT='3306'
+NODE_ENV='dev'
+SECRET="glwinba-api-secret-key"

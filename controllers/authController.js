@@ -4,9 +4,18 @@ const { User, consultarUsuario } = require('../models/User');
 
 exports.signIn = async (req, res)=>{
     const { username, password } = req.body;
+    if(username === '' || password === ''){ 
+        res.json({ msg: 'No se pueden recibir campos vacios...!!' }) 
+        return;
+    }
+
     try{
         let data = {}
         const resultado = await consultarUsuario(username);
+        if(!resultado){
+            res.status(400).json({msg: "Usuario no encontrado,verifica los datos o registrate"});
+            return;
+        }
         let { id, username : user, password: getPassword,email } = resultado;
         data.id = id;
         data.user = user;
